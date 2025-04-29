@@ -53,7 +53,7 @@ conda activate rollingdepth
 ```
 
 ### 💻 Dependencies
-Install dependicies: 
+Install dependencies: 
 ```bash
 pip install -r requirements.txt
 bash script/install_diffusers_dev.sh  # Install modified diffusers with cross-frame self-attention
@@ -107,7 +107,7 @@ python run_video.py \
 - `--save-npy`: whether to save depth maps as .npy files. Default: True.
 - `--save-snippets`: whether to save initial snippets. Default: False
 
-#### Other argumenets
+#### Other arguments
 - Please run `python run_video.py --help` to get details for other arguments.
 - For low GPU memory footage:  pass ` --max-vae-bs 1 --unload-snippet true` and use a smaller resolution, e.g. `--res 512`
 
